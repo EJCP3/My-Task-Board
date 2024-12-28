@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+
+
+
+@theme{
+  --color-white: #F8FAFC;
+  --color-yellow-in-progress: #F5D565;
+  --color-cream-secondary: #F5E8D5;
+  --color-orange-accent: #E9A23B;
+  --color-green-completed: #A0ECB1;
+  --color-gren-success: #32D657;
+  --color-pink-wont-do: #F7D4D3;
+  --color-red-error: #DD524C;
+  --color-light-gray: #E3E8EF;
+  --color-gray-neutral: #97A3B6;
+  --color-blue-primary: #3662E3;
+  --color-dark-overlay: #00000033;
+
+
+  --text-outfit-title: 2.5rem;
+  --text-outfit-description: 1rem;
+  --text-outfit-task-title: 1.25rem;
+  --text-outfit-task-button: 1rem;
+  --text-outfit-button-text: 0.875rem;
+  --text-outfit-input-label: 0.75rem;
+
+}
+
+body{
+  background-color: white;
+}
+
+
+input:checked + .emoji {
+  background-color: #E9A23B;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+input:checked + .status {
+  
+	border-color: blue;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+
+input[type="radio"]:checked + label .statusIcon {
+  display: block;
+}
+
+.statusIcon {
+  display: none;
+}
+
