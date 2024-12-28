@@ -11,7 +11,7 @@ En este desafío completo, desarrollarás una aplicación de gestión de tareas 
 
 ### Screenshot
 
-![PC](assets/capture.png)
+![PC](public/assets/capture.png)
 
 
 ### Links
